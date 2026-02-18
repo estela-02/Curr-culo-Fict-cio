@@ -5,30 +5,70 @@
     <title>Currículo</title>
 
     <style>
-            img{
-        border-radius: 50%;
-        width: 20%;
-    }
-        .partedecima{
-    position: relative;
-    top: 20px; 
-    left: 50px;
+            * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-        
+body {
+    background: #e5e5e5;
+}
+
+.usuário {
+    background: #222;
+    padding: 20px;
+    text-align: right;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.parte1 {
+    background: #222;
+    color: white;
+    padding: 30px 40px;
+}
+
+.parte1 h2 {
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+.parte1 p,
+.parte1 ul,
+.parte2 {
+    background: #e5e5e5;
+    color: #222;
+    padding: 30px 40px;
+}
+
+.parte2 h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
     </style>
 </head>
 <body>
-    <div class="partedecima">
-        <div><img src="usuario.jpeg" alt="imagem usuario"></div>
+        <div class="usuário"><img src="selenacurriculo.jpeg" alt="imagem usuario"></div>
 
-    <h2>Selena Gomez da Silva Nogueira </h2>
+    <div class="parte1">
+        <h2>Selena Gomez dos Santos </h2>
     <p> Endereço: Rua Logo Ali, Nº987 CEP: 01234-567 <br>
         Bairro: Limoeiro<br>
         Telefone: (01) 2345-6789<br>
         Email: loveyoulikealovesong|@gmail.com
     </p>
+    
 
+    
     <h3>DADOS PESSOAIS</h3>
     <ul>
         <li>Data de nascimeto: 22/07/1992</li>
@@ -36,20 +76,29 @@
         <li>Nacionalidade: Costa Lunática</li>
         <li>Documentação: Completa</li>
     </ul>
+    </div>
 
+    <div class="parte2">
     <h3>FORMAÇÃO ESCOLAR</h3>
     <p>Ensino médio-técnico completo</p>
 
     <h3>QUALIFICAÇÃO PROFISSIONAL</h3>
-        <p>Curso: Desenvolvimento de Sistemas <br>
+        <p>Curso: Técnico em Desenvolvimento de Sistemas <br>
         Instituto Federal de Pernambuco </p>
-        <p>Curso: Política Internacional e Gestão de Conflito <br>
+        <p>Curso: Bacharel em Política Internacional e Gestão de Conflito <br>
         Instituto Nacional de Proteção de Princesas Walt Disney</p>
-
+        <p>Cursos: Letras (Inglês e Espanhol) <br>
+        SENAC</p> <br>
+        <p>Cursos Extras: <br> 
+            Operador de Munk <br> SER+<br>
+            Cabeleireiro Profissional <br> Instituto Embelleze
+         </p>
+    
 
     <h3>EXPERIÊNCIA PROFISSIONAL</h3>
         <p>Empresa: Udderly Yogurt LTDA<br>
-        Função: Atendente <br>
+        Função: Gerente <br>
         Período: 2009</p>
+    </div>
 </body>
 </html>
